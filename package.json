@@ -1,0 +1,9 @@
+{
+  "name": "object-assign",
+  "version": "1.0.0",
+  "description": "Object assign Polyfill.",
+  "main": "index.js",
+  "repository": "git@github.com:afeiship/object-assign.git",
+  "author": "feizheng <1290657123@qq.com>",
+  "license": "MIT"
+}
