@@ -5,7 +5,7 @@ if (typeof Object.assign != 'function') {
 
   Object.assign = function (inTarget) {
     'use strict';
-    if (inTarget && Object_TYPE !== toString.apply(inObject)){
+    if (inTarget && Object_TYPE !== toString.apply(inTarget)){
       throw new TypeError('The first argument must be an object');
     }
 
@@ -22,3 +22,8 @@ if (typeof Object.assign != 'function') {
     return inTarget;
   };
 }
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = Object.assign;
+}
+  
